@@ -7,6 +7,9 @@ import json
 
 api_key = "xxxxxxxx"
 
+def do_testing()
+    print ("Testing Github version"
+
 def get_weather(city):
     sock = urlopen("http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=")
     result = sock.read()                            
